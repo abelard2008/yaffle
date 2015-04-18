@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150418031925) do
+ActiveRecord::Schema.define(:version => 20150418040146) do
 
   create_table "hickwalls", :force => true do |t|
     t.string   "last_squawk"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20150418031925) do
 
   create_table "wickwalls", :force => true do |t|
     t.string   "last_squawk"
+    t.string   "last_tweet"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
