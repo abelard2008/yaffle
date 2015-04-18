@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Yaffle::VERSION
   s.authors     = ["Dillon Peng"]
   s.email       = ["pengcz.nwpu@gmail.com"]
-  s.homepage    = "www.google.com"
+  s.homepage    = "http://www.google.com"
   s.summary     = "Summary of Yaffle."
   s.description = "Description of Yaffle."
 
