@@ -1,0 +1,3 @@
+class Wickwall < ActiveRecord::Base
+  attr_accessible :last_squawk
+end
